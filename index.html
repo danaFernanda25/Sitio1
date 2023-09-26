@@ -1,0 +1,323 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Sitio Bootstrap</title>
+    <link rel="stylesheet" href="css/bootstrap.min.css">
+    <link rel="stylesheet" href="css/estilos.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Croissant+One&display=swap" rel="stylesheet">
+</head>
+<body>
+
+    <div class="fondo d-flex align-items-center">
+        <div class="container-fluid">
+            <div class="row cabecera">
+                <div class="col">
+                    <!-- Inicio del navbar -->
+                    <nav class="navbar navbar-expand-sm navbar-dark bg-dark bg-opacity-25 fixed-top">
+                        <div class="container">
+                            <a href="#"><img src="assets/svg/Demon Slayer Kimetsu No Yaiba.svg" class="logo"></a>
+                          <button class="navbar-toggler me-5 " type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+                            <span class="navbar-toggler-icon"></span>
+                          </button>
+                          <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                            <ul class="navbar-nav ms-auto mb-2 mb-lg-0">
+                              <li class="nav-item">
+                                <a class="nav-link fuente-offcanvas fs-5" aria-current="page" href="#">Inicio</a>
+                              </li>
+                              <li class="nav-item">
+                                <a class="nav-link fuente-offcanvas fs-5" href="#" data-bs-toggle="offcanvas" data-bs-target="#nosotros">Nosotros</a>
+                              </li>
+                              <li class="nav-item dropdown">
+                                <a class="nav-link dropdown-toggle fuente-offcanvas fs-5" href="#" id="navbarDropdown" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                                  Servicios
+                                </a>
+                                <ul class="dropdown-menu bg-info bg-opacity-50" aria-labelledby="navbarDropdown">
+                                  <li><a class="dropdown-item descripcion"  href="#temporadas">Temporadas</a></li>
+                                  <li><a class="dropdown-item descripcion"  href="#">Más</a></li>
+                                </ul>
+                              </li>
+                              <li class="nav-item">
+                                <a class="nav-link fuente-offcanvas fs-5" data-bs-toggle="modal" data-bs-target="#contacto">Contacto</a>
+                              </li>
+                            </ul>
+                      
+                          </div>
+                        </div>
+                      </nav>
+                    <!-- Fin del navbar -->
+                </div>
+            </div>
+
+            <!-- inicio contenido del cuepo -->
+            <div class="row cuerpo d-flex align-items-center ">
+              <div class="col-12 col-sm-12 col-md-12 col-lg-7 col-xl-7 text-center colortitulo ">
+                  <p class="display-3 fuente-titulo">KIMETSU NO YAIBA</p>
+                  <div>
+                    <p class="descripcion">Este es un ejemplo de aplicación de Bootstrap 5.</p>
+                  </div>
+              </div>
+              <div class="col-12 col-sm-12 col-md-8 col-lg-3 col-xl-3 ">
+              <!-- inicio opcion modal login -->
+                  <div class="d-flex justify-content-center">
+                      <p>
+                          <button class="btn btn-success fs-5 fuente-offcanvas" type="button" data-bs-toggle="modal" data-bs-target="#login" aria-expanded="false" aria-controls="collapseExample">
+                              Inicio de Sesión
+                          </button>
+                      </p>
+                  </div>
+              <!-- fin opcion modal login -->
+              </div>
+              <div class="col-12 col-sm-12 col-md-4 col-lg-2 col-xl-2 d-flex justify-content-center align-items-center ">
+              <!-- inicio opcion modal registro -->
+              <p>
+                  <button class="btn btn-warning fs-5 fuente-offcanvas" data-bs-toggle="modal" data-bs-target="#registro" aria-expanded="false" aria-controls="collapseExample">
+                      Registro
+                  </button>
+                  </p>
+              <!-- fin opcion modal registro -->
+              </div>
+          </div>
+          <!-- fin contenido del cuepo -->
+            <div class="row pie ">
+                <div class="col d-flex justify-content-center">
+                    <a href="https://www.facebook.com/DemonSlayer.anime">
+                        <img src="/assets/svg/facebook_gris.svg" class="tamanoLogo mx-3">
+                    </a>
+                    <a href="https://www.youtube.com/watch?v=C_pKddExbXI">
+                        <img src="/assets/svg/youtube_gris.svg" class="tamanoLogo mx-3">
+                    </a>
+                    <a href="https://www.instagram.com/demonslayer_hc/">
+                        <img src="/assets/svg/instragram_gris.svg" class="tamanoLogo mx-3">
+                    </a>
+                    <a href="https://twitter.com/DemonSlayerSc">
+                        <img src="/assets/svg/twitter_gris.svg"class="tamanoLogo mx-3">
+                    </a>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!-- Inicio contenido del carrusel -->
+    <div id="temporadas" class="">
+      <div id="carouselFrontend" class="carruselfrontend carousel slide" data-bs-ride="carousel">
+          <div class="carousel-inner ">
+              <div class="carousel-item active " data-bs-interval="1500">
+                  <div class="container ">
+                      <div class="d-flex justify-content-center">
+                          <img src="assets/img/ARCO1.jpg" class="carruselimagen">
+                      </div>
+                      <div class="contenidoscarrusel">
+                          <p class="textolabel fs-4 descripcion">
+                            La Temporada 1 se emitió entre abril y septiembre de 2019, con un total de 26 capítulos. 
+                            El recorrido del primer ciclo es identificado como Tanjiro Kamado, Arco de Resolución Inquebrantable. 
+                            A través de éstas entregas abarca desde el #1 del manga hasta #52, o sea hasta el Tomo 6.
+                          </p>
+                      </div>
+                  </div>
+              </div>
+              <div class="carousel-item" data-bs-interval="1500">
+                  <div class="container">
+                      <div class="d-flex justify-content-center">
+                          <img src="assets/img/ARCO2.jpg" class="carruselimagen">
+                      </div>
+                      <div class="contenidoscarrusel">
+                          <p class="textolabel fs-4 descripcion">
+                            La Temporada 2 llegó en octubre de 2021 y concluyó en febrero de 2022. Este ciclo abordó dos arcos. 
+                            El primero de ellos fue el Arco del Tren Infinito, entre el capítulo 1 al 7.
+                            Mientras que entre el episodio 8 y el 18 se extendió el llamado Arco del Distrito Rojo. 
+                            Así la temporada adaptó del #53 al #99 del manga.
+                          </p>
+                      </div>
+                  </div>
+              </div>
+              <div class="align-items-center carousel-item" data-bs-interval="1500">
+                  <div class="container">
+                      <div class="d-flex justify-content-center">
+                          <img src="assets/img/ARCO3.jpeg" class="carruselimagen">
+                      </div>
+                      <div class="contenidoscarrusel">
+                      <p class="textolabel fs-4 descripcion">
+                        La Temporada 3 no se estrenó sino hasta abril de 2023, para adentrarse en el Arco de la Aldea de los Herreros. 
+                        Su emisión concluyó con 11 capítulos en junio de 2023.
+                        Mientras que cubrió la publicación gráfica entre el #100 y el #127.
+                      </p>
+                      </div>
+                  </div>
+              </div>
+          </div>
+          <button class="carousel-control-prev" type="button" data-bs-target="#carouselFrontend" data-bs-slide="prev">
+              <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+              <span class="visually-hidden">Anterior</span>
+          </button>
+          <button class="carousel-control-next" type="button" data-bs-target="#carouselFrontend" data-bs-slide="next">
+              <span class="carousel-control-next-icon" aria-hidden="true"></span>
+              <span class="visually-hidden">Siguiente</span>
+          </button>
+      </div>
+    </div>
+    <!-- fin carrusel -->
+
+    <!--inicio Modal Login-->
+    <div class="modal fade" id="login" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+      <div class="modal-dialog modal-dialog-centered">
+        <div class="modal-content bg-success bg-opacity-50">
+          <div class="modal-header">
+            <h5 class="modal-title descripcion" id="exampleModalLabel">Iniciar Sesión</h5>
+            <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+          </div>
+          <div class="modal-body">
+            <form class="fuente-offcanvas">
+              <div class="mb-3">
+                <label for="exampleInputEmail1" class="form-label">Correo electronico</label>
+                <input type="email" placeholder="example@gmail.com" class="form-control" id="exampleInputEmail1" aria-describedby="emailHelp">
+                <div id="emailHelp" class="form-text descripcion">Ingrese un usuario registrado.</div>
+              </div>
+              <div class="mb-3">
+                <label for="exampleInputPassword1" class="form-label">Contraseña</label>
+                <input type="password" class="form-control" id="exampleInputPassword1">
+              </div>
+              <button type="submit" class="btn btn-warning">Login</button>
+            </form>
+          </div>
+        </div>
+      </div>
+    </div>
+    <!-- Fin Modal Login -->
+
+    <!--inicio Modal Registro-->
+    <div class="modal fade " id="registro" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+      <div class="modal-dialog modal-dialog-centered">
+        <div class="modal-content bg-danger bg-opacity-50">
+          <div class="modal-header">
+            <h5 class="modal-title descripcion" id="exampleModalLabel">Formulario de registro</h5>
+            <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+          </div>
+          <div class="modal-body">
+              <form class="fuente-offcanvas">
+                  <div class="mb-3">
+                    <label for="exampleInputEmail1" class="form-label">Nombre y Apellido</label>
+                    <input type="text" class="form-control" id="exampleInputEmail1" aria-describedby="emailHelp">
+                  </div>
+                  <div class="mb-3">
+                      <label for="exampleInputEmail1" class="form-label">Documento</label>
+                      <input type="text" class="form-control" id="exampleInputEmail1" aria-describedby="emailHelp">
+                  </div>
+                  <div class="mb-3">
+                      <label for="exampleInputEmail1" class="form-label">Fecha</label>
+                      <input type="date" class="form-control" id="exampleInputEmail1" aria-describedby="emailHelp">
+                  </div>
+                  <div class="mb-3">
+                    <label for="exampleInputPassword1" class="form-label">Contraseña</label>
+                    <input type="password" class="form-control" id="exampleInputPassword1">
+                  </div>
+                  <div id="emailHelp" class="form-text descripcion">Minimo 6 caracteres, 1 caracter especial.</div>
+                  <button type="submit" class="btn btn-warning">Registrar</button>
+                </form>
+          </div>
+          <div class="modal-footer">
+            <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Cerrar</button>
+          </div>
+        </div>
+      </div>
+    </div>
+    <!-- Fin Modal Registro -->
+    
+    <!-- inicio Modal contacto-->
+    <div class="modal fade" id="contacto" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+      <div class="modal-dialog modal-lg modal-dialog-centered">
+          <div class="modal-content bg-info bg-opacity-50">
+          <div class="modal-header">
+              <h5 class="modal-title textolabel fuente-offcanvas" id="exampleModalLabel">Formulario de Contacto</h5>
+              <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+          </div>
+          <div class="modal-body">
+              <div class="row">
+                  <div class="col-12">
+                  <!-- inicio formulario contacto -->
+                  <form>
+                      <div class="row">
+                      <div class="col-12 col-sm-6 col-md-6">
+                          <div class="mb-3">
+                              <input type="text" class="form-control mb-4" id="exampleInputEmail1" aria-describedby="emailHelp" placeholder="Nombres y Apellidos">
+                          </div>
+                          <div class="mb-3">
+                              <input type="text" class="form-control mb-4" id="exampleInputPassword1" placeholder="Correo de contacto">
+                          </div>
+                          <div class="mb-3">
+                              <input type="text" class="form-control mb-4" id="exampleInputPassword1" placeholder="Teléfono de contacto">
+                          </div>
+                          <div class="mb-3">
+                              <input type="text" class="form-control mb-4" id="exampleInputPassword1" placeholder="Dirección">
+                          </div>
+                          <div class="mb-3">
+                              <input type="text" class="form-control" id="exampleInputPassword1" placeholder="Organización">
+                          </div>
+                      </div>
+                      <div class="col-12 col-sm-6 col-md-6">
+                          <div class="mb-3">
+                              <label for="exampleFormControlTextarea1" class="form-label textolabel">Comentario</label>
+                              <textarea class="form-control" id="exampleFormControlTextarea1" rows="8"></textarea>
+                          </div>
+                      </div>
+                      <div class="col-12">
+                          <div class="">
+                              <button type="submit" class="btn btn-warning">Enviar</button>
+                          </div>
+                      </div>
+                      </div>
+                  </form>
+                  <!-- fin formulario contacto -->
+                  </div>
+              </div>
+          </div>
+          <div class="modal-footer">
+              <button type="button" class="btn btn-danger" data-bs-dismiss="modal">Cerrar</button>
+          </div>
+          </div>
+      </div>
+    </div>
+    <!-- fin Modal contacto-->
+
+    <!-- Inicio offcanvas -->
+    <div class="offcanvas offcanvas-bottom Nosotros bg-opacity-50 bg-secondary h-100" tabindex="-1" id="nosotros" aria-labelledby="offcanvasTopLabel" >
+      <div class="offcanvas-header" data-bs-theme="light">
+        <h5 class="offcanvas-title tituloweb fs-1 ms-5 fuente-offcanvas">NOSOTROS</h5>
+        <button class="btn-close bg-danger me-5" data-bs-dismiss="offcanvas" aria-label="Close"></button>
+      </div>
+        <div class="offcanvas-body">
+          <div class="row d-flex align-items-center justify-content-evenly flex-wrap">
+            <div class="card col-10 col-sm-10 col-md-3 col-lg-3 col-xl-3 mb-5 p-2" >
+              <img src="assets/img/creadora.jpg" class=" cardImg" alt="...">
+              <div class="card-body">
+                  <h5 class="card-title textolabel">AUTORA</h5>
+                  <p class="card-text">Koyoharu Gotouge (Fukuoka, 5 de mayo de 1989) es una mangaka japonesa. Se trata de una de los mangakas de mayor éxito en los últimos tiempos, gracias al espectacular éxito de Kimetsu no yaiba (Demon Slayer).</p>
+              </div>
+          </div>
+          <div class="card col-10 col-sm-10 col-md-3 col-lg-3 col-xl-3 mb-5 p-2" >
+              <img src="assets/img/SINOPSIS.jpeg" class=" cardImg" alt="...">
+              <div class="card-body">
+                  <h5 class="card-title textolabel">SYNOPSIS</h5>
+                  <p class="card-text">La historia se desarrolla durante la era Taishō en Japón, donde una enigmática organización, el Demon Slayer Corps, ha librado una batalla encubierta contra los demonios durante siglos.</p>
+              </div>
+          </div>
+          <div class="card col-10 col-sm-10 col-md-3 col-lg-3 col-xl-3 mb-5 p-2">
+              <img src="assets/img/tanjiro.jpg" class=" cardImg" alt="...">
+              <div class="card-body">
+                  <h5 class="card-title textolabel">PROTAGONISTA</h5>
+                  <p class="card-text">Tanjiro Kamado es un niño que vive con su familia en las montañas. 
+                    Tras la muerte de su padre, se convierte en el sustento de su familia. Un día, vuelve a casa y descubre que su familia ha sido atacada y masacrada por un demonio.</p>
+              </div>
+          </div>
+        </div>
+        </div>
+      
+    </div>
+    <!-- Fin offcanvas -->
+    
+   <script src="js/bootstrap.bundle.min.js"></script> 
+</body>
+</html>
