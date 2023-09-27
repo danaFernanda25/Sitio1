@@ -4,6 +4,7 @@
     width: 100vw;
     /* background: linear-gradient(rgb(112, 200, 190), rgb(44, 24, 160)); */
     background-image: url(/assets/img/wallpaperflare.com_wallpaper.jpg);
+    background-color: rgb(44, 24, 160);
 }
 
 .bordebox{
@@ -57,13 +58,12 @@
 
 .carruselfrontend{
     width: 100vw;
-    background: linear-gradient(rgb(112, 200, 190), rgb(44, 24, 160)); 
     height: 100vh;
 }
 
 .carruselimagen{
     height: 50vh;
-    padding-top: 20vh;
+    padding-top: 10vh;
     margin-bottom: 10vh;
 }
 
